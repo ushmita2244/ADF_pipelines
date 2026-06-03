@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "data-fact-df"
+		},
+		"ls_database_password": {
+			"value": ""
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_REST_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
+		},
+		"ls_database_properties_typeProperties_server": {
+			"value": "df-server.database.windows.net"
+		},
+		"ls_database_properties_typeProperties_database": {
+			"value": "df-db"
+		},
+		"ls_database_properties_typeProperties_userName": {
+			"value": "adminushmita"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://datafactstorage.dfs.core.windows.net/"
+		},
+		"schedule_properties_Scheduled_parameters_schema": {
+			"value": "source"
+		},
+		"schedule_properties_Scheduled_parameters_table": {
+			"value": "Orders"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
